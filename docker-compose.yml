@@ -2,8 +2,6 @@ services:
   app:
     build: .
     container_name: python-server
-    comand: gunicorn --bind 0.0.0.0:8585 predict:app
+    entrypoint: gunicorn --bind 0.0.0.0:8585 predict:app
     ports:
       - 8585:8585
-    volumes:
-      - .:/gh
