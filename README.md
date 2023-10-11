@@ -1,4 +1,4 @@
-# challenge_ml_technical_test
+# ml flask
 
 To see the endpoint deployed and the answer for the "input" variable inside "predict-test.py" you need to install:
  
